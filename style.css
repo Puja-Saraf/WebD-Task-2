@@ -1,0 +1,207 @@
+body{
+    background-color: #1D1E20;
+}
+.geekhaven{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    left: 2%;
+    top: 4%;
+}
+.about{
+    position: absolute;
+    left: 1051px;
+    top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    color: #13F7D2;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    color: #13F7D2;
+    text-decoration: none;
+}
+.cross1{
+    position: absolute;
+    top: 159px;
+    left: 480px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 60px;
+}
+.pheobe{
+    position: absolute;
+    width:320px; 
+    height:320px;
+    border-radius: 50%;
+    top: 180px;
+    left: 200px;
+}
+.blue{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    left: 180px;
+    top: 400px;
+    background: rgba(19, 247, 210, 0.55);
+}
+.cross2{
+    position: absolute;
+    top: 495px;
+    left: 390px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 60px;
+}
+.name{
+    position: absolute;
+    left: 610px;
+    top: 175px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    letter-spacing: 0.13em;
+    color: #13F7D2;
+}
+.aboutme{
+    position: absolute;
+    left: 610px;
+    top: 270px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+}
+.desc{
+    position: absolute;
+    left: 610px;
+    top: 340px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+}
+.footer{
+    position: absolute;
+    left: 42.3%;
+    bottom: 0px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.icons{
+    position: absolute;
+    left: 44%;
+    text-align: center;
+    color: #13F7D2;
+    font-size: 33px;
+    bottom: 15px;
+}
+.menu{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #13F7D2;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 666px){
+    .menu{
+        display:none;
+    }
+}
+@media screen and (max-width: 666px){
+    #links{
+        display:none;
+    }
+    .about{
+        top:5%;
+        left: 85%;
+        font-weight: 450;
+        font-size: 18px;
+    }
+    .contact{
+        top:8%;
+        left: 84%;
+        font-weight: 450;
+        font-size: 18px;
+    }
+    .geekhaven{
+        width:75px;
+        height:75px;
+    }
+    .cross1{
+        top: 98px;
+        left: 267px;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .pheobe{
+        width:200px; 
+        height:200px;
+        top: 100px;
+        left: 80px;
+    }
+    .blue{
+        width: 80px;
+        height: 80px;
+        left: 70px;
+        top: 235px;
+    }
+    .cross2{
+        top: 300px;
+        left: 180px;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .name{
+        left: 30px;
+        top: 320px;
+        font-weight: 500;
+        font-size: 28px;
+        letter-spacing: 0.08em;
+    }
+    .aboutme{
+        left: 30px;
+        top: 360px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .desc{
+        left: 30px;
+        top: 420px;
+        right: 10px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .icons{
+        left: 28%;
+        font-size: 25px;
+        bottom: 20px;
+    }
+    .footer{
+        left: 22%;
+        bottom: 0px;
+        font-size: 12px;
+    }
+}
